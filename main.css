@@ -10,22 +10,36 @@ button
 {
     box-sizing: border-box;
     background-color: hsl(229, 57%, 11%);
-    height: 4em;
-    width: 4em;
-    margin-right: .5em;
+    height: 3.75em;
+    width: 3.75em;
+    margin-right: .75em;
     border: none;
     border-radius: .75em;
     vertical-align: top;
     
 }
 
+
+
 .card1, .card2
 {
     background-color: hsl(228, 56%, 26%);
     max-width: 12em;
-    padding: 2em;
+    padding: 2.5em;
     margin-bottom: 1em;
 
+}
+
+.card1 
+{
+    padding-right: 6em;
+    border-radius: .75em;
+    border-top-right-radius: 6.5em;
+}
+
+.logo 
+{
+    margin-bottom: 2em;
 }
 
 .attribution 
