@@ -1,8 +1,41 @@
+html 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/bg-mobile.png);
+}
+button
+{
+    box-sizing: border-box;
+    background-color: hsl(229, 57%, 11%);
+    height: 4em;
+    width: 4em;
+    margin-right: .5em;
+    border: none;
+    border-radius: .75em;
+    vertical-align: top;
+    
+}
+
+.card1, .card2
+{
+    background-color: hsl(228, 56%, 26%);
+    max-width: 12em;
+    padding: 2em;
+    margin-bottom: 1em;
+
+}
+
 .attribution 
 { 
+    position: absolute;
+    bottom: 0;
     font-size: 11px; 
     text-align: center; 
 }
+
 .attribution a 
 { 
     color: hsl(228, 45%, 44%); 
