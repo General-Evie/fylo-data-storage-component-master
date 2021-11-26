@@ -31,8 +31,35 @@ button
     margin-right: .75em;
     border: none;
     border-radius: .75em;
-    vertical-align: top;
-    
+    vertical-align: top; 
+}
+
+p
+{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    font-family: 'Raleway';
+    background-color: #fff;
+    left: 23.5%;
+    top: 76.5%;
+    margin: 0 auto;
+    padding: .75em 1.5em;
+    border-radius: .75em;
+}
+
+.left
+{
+    font-size: 2.5em;
+    color: hsl(229, 57%, 11%);
+}
+
+.right
+{
+    text-transform: uppercase;
+    font-size: .8em;
+    margin-left: 1.5ch;
+    color: hsl(229, 7%, 55%) ;
 }
 
 .card1
@@ -53,6 +80,7 @@ button
     padding: 2em;
     text-align: center;
     border-radius: .75em;
+    position: relative;
 }
 
 .bar 
@@ -94,6 +122,7 @@ button
     font-weight: 700;
     font-size: .75em;
     margin-top: .75em;
+    margin-bottom: 1em;
     color: #fff;
     columns: 2;
 }
@@ -119,6 +148,8 @@ button
 { 
     position: absolute;
     bottom: 0;
+    right: 0;
+    left: 0;
     font-size: 11px; 
     text-align: center; 
 }
