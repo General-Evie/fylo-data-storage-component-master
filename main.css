@@ -12,7 +12,14 @@ h1
     font-family: 'Raleway';
     font-size: .9em;
     font-weight: 300;
-    color: #fff;
+    margin-top: 0;
+    margin-bottom: 1.25em;
+    color: hsl(243, 100%, 93%);
+}
+
+span
+{
+    font-weight: 700;
 }
 
 button
@@ -45,6 +52,7 @@ button
     width: 16.5em;
     padding: 2em;
     text-align: center;
+    border-radius: .75em;
 }
 
 .bar 
@@ -82,7 +90,24 @@ button
 
 .GB
 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: .75em;
+    margin-top: .75em;
+    color: #fff;
     columns: 2;
+}
+
+.min
+{
+    display: flex;
+    justify-content: start;
+}
+
+.max
+{
+    display: flex;
+    justify-content: end;
 }
 
 .logo 
