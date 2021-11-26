@@ -6,6 +6,15 @@ html
     height: 100vh;
     background-image: url(images/bg-mobile.png);
 }
+
+h1
+{
+    font-family: 'Raleway';
+    font-size: .9em;
+    font-weight: 300;
+    color: #fff;
+}
+
 button
 {
     box-sizing: border-box;
@@ -19,22 +28,61 @@ button
     
 }
 
-
-
-.card1, .card2
+.card1
 {
     background-color: hsl(228, 56%, 26%);
-    max-width: 12em;
+    width: 12em;
     padding: 2.5em;
-    margin-bottom: 1em;
-
-}
-
-.card1 
-{
     padding-right: 6em;
     border-radius: .75em;
     border-top-right-radius: 6.5em;
+    margin-bottom: 1em;
+}
+
+.card2
+{
+    background-color: hsl(228, 56%, 26%);
+    width: 16.5em;
+    padding: 2em;
+    text-align: center;
+}
+
+.bar 
+{   
+    background-color: hsl(229, 57%, 11%);
+    height: 1.20em;
+    width: 16.5em;
+    margin: auto;
+    border-radius: 1em;
+    position: relative;
+    
+}
+
+.progress
+{
+    position: absolute;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    width: calc((.815 * 16.5em) - .48em);
+    height: .72em;
+    border: .24em solid hsl(229, 57%, 11%);
+    border-radius: 1em; 
+    position: relative;
+}
+
+.dot
+{
+    position: absolute;
+    width: .51em;
+    height: .51em;
+    border-radius: 50%;
+    border: .12em solid hsl(335, 100%, 65%);
+    right: 0;
+    background-color: #fff;
+}
+
+.GB
+{
+    columns: 2;
 }
 
 .logo 

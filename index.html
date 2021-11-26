@@ -6,6 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
@@ -24,11 +27,17 @@
     <section class="card2">
       <h1>You’ve used 815 GB of your storage</h1>
 
-      <div class="GB">
-        <div class="min">0 GB</div>
-        <div class="max">1000 GB</div>
+      <div class="bar">
+          <div class="progress">
+            <div class="dot"></div>
+          </div>
       </div>
-      <h2>185 GB Left</h2>
+        <div class="GB">
+          <div class="min">0 GB</div>
+          <div class="max">1000 GB</div>
+        </div>
+      
+      <p>185 GB Left</p>
     </section>
   </div>
   
