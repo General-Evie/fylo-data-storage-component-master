@@ -31,7 +31,7 @@ button
     margin-right: .75em;
     border: none;
     border-radius: .75em;
-    vertical-align: top; 
+    vertical-align: bottom; 
 }
 
 p
@@ -46,20 +46,6 @@ p
     margin: 0 auto;
     padding: .75em 1.5em;
     border-radius: .75em;
-}
-
-.left
-{
-    font-size: 2.5em;
-    color: hsl(229, 57%, 11%);
-}
-
-.right
-{
-    text-transform: uppercase;
-    font-size: .8em;
-    margin-left: 1.5ch;
-    color: hsl(229, 7%, 55%) ;
 }
 
 .card1
@@ -98,7 +84,7 @@ p
 {
     position: absolute;
     background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
-    width: calc((.815 * 16.5em) - .48em);
+    width: 81.5%;
     height: .72em;
     border: .24em solid hsl(229, 57%, 11%);
     border-radius: 1em; 
@@ -139,6 +125,20 @@ p
     justify-content: end;
 }
 
+.left
+{
+    font-size: 2.5em;
+    color: hsl(229, 57%, 11%);
+}
+
+.right
+{
+    text-transform: uppercase;
+    font-size: .8em;
+    margin-left: 1.5ch;
+    color: hsl(229, 7%, 55%) ;
+}
+
 .logo 
 {
     margin-bottom: 2em;
@@ -150,11 +150,54 @@ p
     bottom: 0;
     right: 0;
     left: 0;
-    font-size: 11px; 
+    font-size: 11px;
+    margin-bottom: 50px; 
     text-align: center; 
 }
 
 .attribution a 
 { 
     color: hsl(228, 45%, 44%); 
+}
+@media (min-width: 375px) 
+{
+    html 
+    {
+        background-color: hsl(229, 57%, 11%);
+        background-image: url(images/bg-desktop.png);
+        background-size: 100vw 50vh;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+    }
+
+    h1 
+    {
+        text-align: left;
+    }
+
+    .cards 
+    {
+        display: flex;
+    }
+
+    .card1
+    {
+        padding-right: 8em;
+        margin-right: 2em;
+        margin-bottom: 0;
+        
+    }
+    
+    .card2
+    {
+        max-height: 6rem;
+        margin-top: 3rem;
+        width: 35rem;
+    }
+
+    .bar
+    {
+        width: 35rem;
+    }
+
 }
