@@ -175,6 +175,14 @@ p
         text-align: left;
     }
 
+    p 
+    {
+        margin: 2em;
+        left: auto;
+        top: -50%;
+        right: 0;
+    }
+
     .cards 
     {
         display: flex;
@@ -187,7 +195,7 @@ p
         margin-bottom: 0;
         
     }
-    
+
     .card2
     {
         max-height: 6rem;
@@ -198,6 +206,19 @@ p
     .bar
     {
         width: 35rem;
+    }
+
+    p::after
+    {
+        position: absolute;
+        content: '';
+        height: 2em;
+        width: 1.5em;
+        background: #fff;
+        transform: skew(0, 45deg);
+        right: 0;
+        top: 69%;
+
     }
 
 }
